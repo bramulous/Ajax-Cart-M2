@@ -1,7 +1,7 @@
 var config = {
     map: {
         '*': {
-            ajaxQty: 'Module_AjaxCart/js/cartAjaxQty'
+            ajaxQty: 'Vendor_AjaxCart/js/cartAjaxQty'
         }
     }
 };

@@ -44,14 +44,6 @@ define([
             }
         );
 
-        $('.cart.table-wrapper .action-delete').on("click", function (e) {
-            e.preventDefault();
-            var cartItem = $(this);
-            $('input[name$="[qty]"]').val('0');
-            alert($(cartItem).data().bind);
-            return false;
-
-        });
 
 
     });
