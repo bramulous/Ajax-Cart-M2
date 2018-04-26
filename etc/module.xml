@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--
 /**
- * Copyright © 2018 Module. All rights reserved.
- *
+ * Created by Bramulous
+ * contact@bramvalstar.nl
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
