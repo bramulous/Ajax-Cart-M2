@@ -1,0 +1,21 @@
+{
+    "name": "Module/module-ajaxcart",
+    "description": "Delete Orders Module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "contact@bramvalstar.nl",
+            "name": "BV"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Module\\AjaxCart\\": ""
+        }
+    }
+}
