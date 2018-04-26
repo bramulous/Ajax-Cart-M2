@@ -2,11 +2,11 @@
     require ([
             'jquery'
         ],
-    function ($) {
-        $(document).ready(function () {
-            require([
-                'Vendor_AjaxCart/js/cartAjaxQty'
-            ]);
+        function ($) {
+            $(window).on("load", function () {
+                require([
+                    'Buro210_AjaxCart/js/cartAjaxQty'
+                ]);
+            });
         });
-    });
 </script>
