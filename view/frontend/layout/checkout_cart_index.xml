@@ -1,10 +1,10 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <head>
-        <css src="VendorAjaxCart::css/checkout.css" media="all" />
-    </head>
     <body>
         <referenceContainer name="content">
-            <block class="Magento\Framework\View\Element\Template" name="script"  template="Vendor_AjaxCart::script.phtml" after="-"/>
+            <block class="Magento\Framework\View\Element\Template" name="script"  template="BRVM_AjaxCart::script.phtml" after="-"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <referenceBlock name="checkout.cart.item.renderers.simple.actions.edit" template="BRVM_AjaxCart::cart/edit.phtml"/>
         </referenceContainer>
     </body>
 </page>

@@ -1,11 +1,11 @@
 {
     "name": "Module/module-ajaxcart",
-    "description": "Delete Orders Module",
+    "description": "Delete Orders Module - BRVM",
     "license": "proprietary",
     "authors": [
         {
             "email": "contact@bramvalstar.nl",
-            "name": "BV"
+            "name": "BRVM"
         }
     ],
     "minimum-stability": "dev",
